@@ -1,4 +1,4 @@
 [build]
   base    = "docs"  # ビルドを実行するディレクトリ
   publish = "build"  # ホスティングするディレクトリ
-  command = "sphinx-build source build"  # ビルドコマンド
+  command = "sh commands.sh"  # ビルドコマンド
